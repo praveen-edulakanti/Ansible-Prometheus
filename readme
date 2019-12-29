@@ -1,0 +1,4 @@
+ansible -i inventory -m ping all
+ansible-playbook -i inventory playbook-prometheus.yml
+ansible-playbook -i inventory playbook-webserver.yml
+ansible-playbook -i inventory playbook-mysql.yml
